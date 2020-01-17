@@ -12,5 +12,12 @@ var user = {
     // 获取信息
     getInfo:function(){
         return $.get(APILIST.user_getInfo)
+    },
+    article:function(){
+        return $.get(APILIST.user_article)
+    },
+    comment_count:function(){
+        return $.get(APILIST.user_comment_count)
     }
+    
 }
